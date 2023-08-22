@@ -1,0 +1,3 @@
+﻿Field Name,Number Of Null Values,Percentage
+number of null values in (start_station) or (end_station) fields,1271642,22.70%
+number of null values in (start_station) and (end_station) fields,410201,7.30%
