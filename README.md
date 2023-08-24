@@ -39,6 +39,13 @@
 ###
 ## Data Exploration
 ### Showing the number of NULL values in the columns (start_station_name - end_station_name) in SQL and Tableau:
+![4- Showing the number of null values in station names](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/26a8458f-0cf4-420c-949c-772c8e6ae3f3)
+###
+![4- Showing the number of null values in station names in tabelau](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/889f70f6-9ad5-41d3-8faa-d84d28fb7603)
+### We can see that there are 1271642 trip without start_station_name or end_station_name (about 22.7%), and 410201 trip without the both (about 7.3%), which is a huge number.
+###
+###
+
 
 
 
