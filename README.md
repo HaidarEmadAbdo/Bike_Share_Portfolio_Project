@@ -39,7 +39,12 @@
 ###
 ## Data Exploration
 ### Showing total numbers for casuals vs members in SQL and Tableau:
-
+![6- total numbers for casuals vs members](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/9db52714-75c4-438c-aa93-627001a7af7b)
+###
+![6- total numbers for casuals vs members in tableau](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/53bc38ea-8385-4b8d-83d2-2c70c43eded3)
+### We can see that member trips (3302300 trip) are more than casual trips(2294108 trip),but the average duration of the casual trip (29 minute) is more than the the average duration of the member trip which is (12 minute).
+###
+###
 ### Showing the number of NULL values in the columns (start_station_name - end_station_name) in SQL and Tableau:
 ![4- Showing the number of null values in station names](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/26a8458f-0cf4-420c-949c-772c8e6ae3f3)
 ###
@@ -54,7 +59,8 @@
 ### If we deleted the null values, We can see that the trip (From 'Streeter Dr & Grand Ave'  to  'Streeter Dr & Grand Ave') is the most frequent journey made by casuals and by a large margin than the rest. 
 ###
 ###
-### 
+### Showing how the number of trips changes over the months of the year for casuals and members in SQL and Tableau:
+
 
 
 
