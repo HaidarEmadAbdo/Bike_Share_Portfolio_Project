@@ -1,3 +1,5 @@
+<img src="https://th.bing.com/th/id/R.1f0550eb7e1693cbd9f622c6cb7f8c07?rik=zGahXwvmZa%2bZxg&pid=ImgRaw&r=0" width="100%" alt="Superstore cast">
+
 # **Bike Share Portfolio project**
 
 ## **Introduction**
@@ -31,6 +33,7 @@ We need to create a new table that contains only the data that we are going to u
    3- We will make a new column called 'duration' contains the duration for every trip by minute.
    4- We will delete the rows that contains null values in the column (ride_id) because we can't benifit from it.
    5- We will delete the rows that contain 0 or negative values in the duration column.
+
 
 
 
