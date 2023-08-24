@@ -60,7 +60,13 @@
 ###
 ###
 ### Showing how the number of trips changes over the months of the year for casuals and members in SQL and Tableau:
-
+![7- showing the number of trips over months](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/67ab762a-79b4-4ad1-8b7d-f4156fd9f8e1)
+###
+![7- showing the number of trips over months  in tableaupng](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/53075985-6de6-4db8-a06f-a5291c492d5d)
+### We Can see that the numrer of trips is increasing in the warm seasons.
+###
+###
+### Showing the number of trips at every hour of the day for casuals and members in SQL and Tableau:
 
 
 
