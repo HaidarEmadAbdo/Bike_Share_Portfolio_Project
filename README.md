@@ -13,14 +13,11 @@
 
 ## **Data Source:**
 ### The dataset to be used is from: **Google Data Analytics Certificate.**
-### performance Data Quality & Timeliness: This dataset contains data points that includes information about every single trip in 2022 such as start and end station name, rideable type, start datetime, end datetime and membership.
+### Performance Data Quality & Timeliness:
+### This dataset contains data points that includes information about every single trip in 2022 such as start and end station name, rideable type, start datetime, end datetime and membership.
+### Shwoing our raw data in SQL:
+###
 
-## **Explanation of the above files:**
-### 1- SQL file: Includes queries to extract tables that help us in analysis.
-### 2- Tables from SQL Qeries folder: includes tables that we extract from SQL queries.
-### 3- A PowerPoint file containing pictures that were used in the story of the tableau.
-###    Please visit: [https://public.tableau.com/app/profile/haidar.abdo/viz/superstore_portfolio_project/Story1#1]
-###    to see our tableau story.
 
 
 
