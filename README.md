@@ -25,14 +25,21 @@
 ###
 ###
 ### We are going to build "our_table" form our raw data:
-We need to create a new table that contains only the data that we are going to use, and we will call it 'our_table'.
-   1- We will add the columns (ride_id, rideable_type, start_station_name, end_station_name) to our_table.
-   2- We noticed that the two columns (started_at, ended_at) are in a (datetime format), so we will make 3 columns from each one :
-       * From the started at column we made : (1- started_date /date/ 2-started_time /time/ 3- started_hour /int/).
-       * From the ended at column we made : (1- ended_date /date/ 2-ended_time /time/ 3- ended_hour /int/).
-   3- We will make a new column called 'duration' contains the duration for every trip by minute.
-   4- We will delete the rows that contains null values in the column (ride_id) because we can't benifit from it.
-   5- We will delete the rows that contain 0 or negative values in the duration column.
+### We need to create a new table that contains only the data that we are going to use, and we will call it 'our_table'.
+###    1- We will add the columns (ride_id, rideable_type, start_station_name, end_station_name) to our_table.
+###    2- We noticed that the two columns (started_at, ended_at) are in a (datetime format), so we will make 3 columns from each one :
+###        * From the started at column we made : (1- started_date /date/ 2-started_time /time/ 3- started_hour /int/).
+###       * From the ended at column we made : (1- ended_date /date/ 2-ended_time /time/ 3- ended_hour /int/).
+###    3- We will make a new column called 'duration' contains the duration for every trip by minute.
+###    4- We will delete the rows that contains null values in the column (ride_id) because we can't benifit from it.
+###    5- We will delete the rows that contain 0 or negative values in the duration column.
+###
+![3- adding data into our table](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/70a94fed-56b7-4ddd-a588-02d833b0b832)
+###
+###
+## Data Exploration
+### Showing the number of NULL values in the columns (start_station_name - end_station_name) in SQL and Tableau:
+
 
 
 
