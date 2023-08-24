@@ -15,9 +15,22 @@
 ### The dataset to be used is from: **Google Data Analytics Certificate.**
 ### Performance Data Quality & Timeliness:
 ### This dataset contains data points that includes information about every single trip in 2022 such as start and end station name, rideable type, start datetime, end datetime and membership.
-### Shwoing our raw data in SQL:
+### Shwoing our raw data in SQL, after merging 12 months tables into one table called "2022":
 ###
-
+![1- Showing our raw data](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/3a64265f-b366-4a9e-b626-26f72e967ce7)
+###
+![2- Showing our raw data](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/18017808-b917-4bc5-a734-1ac04bdc4262)
+###
+###
+### We are going to build "our_table" form our raw data:
+We need to create a new table that contains only the data that we are going to use, and we will call it 'our_table'.
+   1- We will add the columns (ride_id, rideable_type, start_station_name, end_station_name) to our_table.
+   2- We noticed that the two columns (started_at, ended_at) are in a (datetime format), so we will make 3 columns from each one :
+       * From the started at column we made : (1- started_date /date/ 2-started_time /time/ 3- started_hour /int/).
+       * From the ended at column we made : (1- ended_date /date/ 2-ended_time /time/ 3- ended_hour /int/).
+   3- We will make a new column called 'duration' contains the duration for every trip by minute.
+   4- We will delete the rows that contains null values in the column (ride_id) because we can't benifit from it.
+   5- We will delete the rows that contain 0 or negative values in the duration column.
 
 
 
