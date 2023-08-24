@@ -45,7 +45,7 @@
 ### We can see that there are 1271642 trip without start_station_name or end_station_name (about 22.7%), and 410201 trip without the both (about 7.3%), which is a huge number.
 ###
 ###
-
+### Showing (start_station_name + end_station_name) with the higher number of trips for casuals (top 15) in SQL and Tableau:
 
 
 
