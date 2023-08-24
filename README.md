@@ -38,6 +38,8 @@
 ###
 ###
 ## Data Exploration
+### Showing total numbers for casuals vs members in SQL and Tableau:
+
 ### Showing the number of NULL values in the columns (start_station_name - end_station_name) in SQL and Tableau:
 ![4- Showing the number of null values in station names](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/26a8458f-0cf4-420c-949c-772c8e6ae3f3)
 ###
@@ -46,6 +48,13 @@
 ###
 ###
 ### Showing (start_station_name + end_station_name) with the higher number of trips for casuals (top 15) in SQL and Tableau:
+![5- Showing the top stations for casuals](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/c1704d95-db86-4adc-bf6a-a4e069d7931e)
+###
+![5- Showing the top stations for casuals in tableau](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/3aae8236-6be3-49cd-959d-a50dcad12898)
+### If we deleted the null values, We can see that the trip (From 'Streeter Dr & Grand Ave'  to  'Streeter Dr & Grand Ave') is the most frequent journey made by casuals and by a large margin than the rest. 
+###
+###
+### 
 
 
 
