@@ -67,6 +67,11 @@
 ###
 ###
 ### Showing the number of trips at every hour of the day for casuals and members in SQL and Tableau:
+![8- showing the number of trips over hour of day](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/cd8651ac-ddab-41b8-aa1f-c045977fc3da)
+### 
+![8- showing the number of trips over hour of day in tableau](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/61751b5f-2e80-4145-9b45-b09f93bbaba1)
+### We notice the number of trips of members and casuals starts to increase from about 7 am and continues to increase until 5 pm, which is normal,and then the number of their trips begins to decline.
+### However, we note that there is a noticeable increase in the number of members' trips between seven and eight in the morning, which indicates that a large percentage of members are students or employees who have a fixed time.
 
 
 
