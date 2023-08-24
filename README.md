@@ -75,7 +75,21 @@
 ###
 ###
 ### Showing the statics for every bike type for casuals and members in SQL and Tableau:
+![9- showing the rides typer for members and casuals](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/690862f1-df21-4375-9e7d-32cb9526c5de)
+###
+![9- showing the rides typer for members and casuals in tableau](https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/assets/139217562/f6b01e44-c062-4aef-80fd-2b68c379e1e0)
+<h3>We note that the members use the classic bikes in the first place (which is a good indicator because it is more healthy),
+   especially since the average trips of the members are few and most of the students and employees live next to their work 
+   and therefore there will be no fatigue on the trip), followed by a slight difference in the e-bikes,
+   but no case of using docked bikes was mentioned by the members, and the reason, as mentioned earlier, is that the members are
+   mostly students and employees, which means that they cannot return the bike to dock it in the same place from which they took it.
+   As for casuals, we note that there is a use of all types of bicycles, primarily e-bikes (the reason may be that the average casual trips are
+   long and therefore trips by e-bikes are easier).</h3>
 
+###
+## Data Visualization
+### Please visit:    https://public.tableau.com/app/profile/haidar.abdo/viz/Bike_Share_2022_Portfolio_Project/Story1#1       
+### to see the full Tableau story with the conclusions and recommendations using interactive dashboards.
 
 
 
