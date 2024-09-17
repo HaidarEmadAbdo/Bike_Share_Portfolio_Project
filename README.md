@@ -1,27 +1,28 @@
-<img src="https://th.bing.com/th/id/OIG.tlTNTSxj0uS8Ku5bQwia?pid=ImgGn" width="100%" alt="Superstore cast">
+<img src="https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/blob/main/bykeshare%20project%20image.jpg" width="100%" alt="Bike Share cast">
 
-# **European Union Covid 19 Portfolio project**
+# **Bike Share Portfolio project**
 
 ## **Introduction**
-### The project is a case study of the spread of the Covid-19 virus within the European Union, including a study of the countries most affected by the virus relative to their population and how this has changed over the years, in addition to the countries that have higher death rates due to the virus than others.
-### Finally, presenting the conclusions we drew from this study and advice to stakeholders to help limit the spread of this virus. 
+### this project is a case study for a bike rental company in the united states of america that includes a study of the differences between members and regular users, their number of trips, the times of increase and decrease in the number of these trips during the months of the year and also during the hours of the day, the preferred types of bikes for each of them and the stations they frequent most.
+### finally presenting the conclusions we drew from this study and advice to stakeholders to help management increase the number of members compared to regular users. 
 
 ## **Some of the questions to answer will be:**
-### What are the total numbers regarding the spread of this virus within the European Union?
-### What is the percentage of infections of the total population within each country, and how has this changed over the years?
-### What is the percentage of deaths out of the total number of infected people within each country, and how has this changed over the years?
+### how many trips are taken by members and casuals and what is the average trip duration for each?
+### what are the months in which there is an increase in the number of trips for members and casuals?
+### what are the hours of the day when there is an increase in the number of trips for members and casuals?
+### what are the members and casuals favorite types of bikes and why?
+### what are the most frequented stations by members and casuals?
 
 ## **Data Source:**
-### The dataset to be used is from: ecdc (European Centre for Disease Prevention and Control).
-### URL:
-         http://www.ecdc.europa.eu/en/data/downloadable-datasets
+### The dataset to be used is from (Google Data Analytics Certificate).
 ### Performance Data Quality & Timeliness: 
-### This dataset contains data points that includes information such as country names, populations, number of deaths, new cases and the number of people tested.
-### Shwoing our raw data in SQL:
+### This dataset contains data points that includes information about every single trip in 2022 such as start and end station name, rideable type, start datetime, end datetime and membership.
+### Shwoing our raw data in SQL, after merging 12 months tables into one table called "2022":
 ###
 ![1- Showing our raw data](https://github.com/HaidarEmadAbdo/European_Union_Covid_19_Portfolio_Project/assets/139217562/0ca45ca8-2499-4503-8c85-e61619a79294)
 ###
 ###
+### **We are going to build "our_table" form our raw data:**
 ### Selecting data that we are going to use:
 ###
 ![2- Selecting data that we are going to us](https://github.com/HaidarEmadAbdo/European_Union_Covid_19_Portfolio_Project/assets/139217562/2af26806-4090-4640-a283-759f2faba02d)
