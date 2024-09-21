@@ -45,7 +45,7 @@
 <img src ="https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/blob/main/4-%20images%20for%20readme%20file/4-%20Showing%20the%20number%20of%20null%20values%20in%20station%20names.png" width="100%" alt="Showing our row data 2">
 <img src ="https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/blob/main/4-%20images%20for%20readme%20file/4-%20Showing%20the%20number%20of%20null%20values%20in%20station%20names%20in%20tabelau.png" width="100%" alt="Showing our row data 2">
 
-### We can see that there are 1271642 trip without start_station_name or end_station_name (about 22.7%), and 410201 trip without the both (about 7.3%), which is a huge number.
+### We can see that there are 1,271,642 trip without start_station_name or end_station_name (about 22.7%), and 410,201 trip without the both (about 7.3%), which is a huge number.
 ###
 ###
 ## **Showing (start_station_name + end_station_name) with the higher number of trips for casuals in SQL and Tableau:**
@@ -61,7 +61,8 @@
 <img src ="https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/blob/main/4-%20images%20for%20readme%20file/6-%20total%20numbers%20for%20casuals%20vs%20members.png" width="100%" alt="Showing our row data 2">
 <img src ="https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/blob/main/4-%20images%20for%20readme%20file/6-%20total%20numbers%20for%20casuals%20vs%20members%20in%20tableau.png" alt="Showing our row data 2">
 
-### We can see that member trips (3302300 trip) are more than casual trips(2294108 trip), but the average duration of the casual trip (29 minute) is more than the the average duration of the member trip which is (12 minute).
+### We can see that member trips (3302300 trip) which represents 60% of the total trips are more than casual trips(2294108 trip) which represents 40% of the total , but the average duration of the casual trip (29 minute) is more than the the average duration of the member trip which is (12 minute).
+### We do not have information about the per-minute cost of the member's trip and the casual trip, but 	we know that members always have discounts and therefore the per-minute cost of the member’s 		trip will definitely be less than the per-minute cost of the casual trip or at least equal to it, and if we 	do a quick calculation, we will see that the profits that come from the casuals are more than the 	profits that come from the 	members.
 ###
 ###
 ## **Showing how the number of trips changes over the months of the year for members and casuals in SQL and Tableau:**
@@ -74,7 +75,8 @@
 <img src ="https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/blob/main/4-%20images%20for%20readme%20file/8-%20showing%20the%20number%20of%20trips%20over%20hour%20of%20day.png" width="100%" alt="Showing our row data 2">
 <img src ="https://github.com/HaidarEmadAbdo/Bike_Share_Portfolio_Project/blob/main/4-%20images%20for%20readme%20file/8-%20showing%20the%20number%20of%20trips%20over%20hour%20of%20day%20in%20tableau.png" width="100%" alt="Showing our row data 2">
 
-### We notice the number of trips of members and casuals starts to increase from about 7 am and continues to increase until 5 pm, which is normal, and then the number of their trips begins to decline.
+### We note that the number of trips increases in the summer months for both members and casuals, which is normal, with preference for members in all months of the year except July, which is the height of summer when most people go on vacation trips. 
+### We also notice that the number of trips of members and casuals starts to increase from about 7 am and continues to increase until 5 pm, which is normal, and then the number of their trips begins to decline.
 ### However, we note that there is a noticeable increase in the number of members' trips between seven and eight in the morning, which indicates that a large percentage of members are students or employees who have a fixed time.
 ###
 ###
@@ -85,6 +87,13 @@
 
 ### We note that the members use the classic bikes in the first place (which is a good indicator because it is more healthy), especially since the average trips of the members are few and most of the students and employees live next to their work and therefore there will be no fatigue on the trip), followed by a slight difference in the e-bikes, but no case of using docked bikes was mentioned by the members, and the reason, as mentioned earlier, is that the members are mostly students and employees, which means that they cannot return the bike to dock it in the same place from which they took it.
 ### As for casuals, we note that there is a use of all types of bicycles, primarily e-bikes (the reason may be that the average casual trips are long and therefore trips by e-bikes are easier).
+###
+###
+## Recommendations
+### The main objective of our analysis is to know how to increase the number of members compared to casuals, but the management must be informed that the profits that come from casuals are more than the profits that come from members, and therefore the large number of casuals does not negatively affect the profits of the company.
+### The administration should also be informed that there is a large amount of missing data in the names of the stations, and there is a percentage of 7.3% of the trips that do not know where they started from and where they ended. 
+### Therefore, those responsible for collecting data must be informed to address this problem, and that the data be comprehensive.
+### We now return to our main goal of how to increase the number of members compared to casuals, the administration must be informed to inform the discounts department so that they provide large discounts on membership to entice casuals to become members even if these discounts are temporary (e.g. in July) because there are a large number of casual trips at this time of year, and it must posting advertisements for these discounts in all stations, in addition to allocating the station "Streeter Dr & Grand Ave" with a larger amount of advertisements than others, because there is a large section of casuals who visit this station more frequently than other stations.
 ###
 ###
 ## Data Visualization
